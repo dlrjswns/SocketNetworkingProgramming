@@ -42,6 +42,10 @@ namespace SimpleServer
                     client.Close();
                     break;
                 }
+                string txt = Encoding.UTF8.GetString(recvBytes, 0, nRecv);
+                Console.WriteLine(client.RemoteEndPoint.ToString() + ":" + txt);
+                byte[] sendByte = Encoding.UTF8.GetBytes("서버:" + txt);
+                client.Send(sendByte);
             }
         }
     }
