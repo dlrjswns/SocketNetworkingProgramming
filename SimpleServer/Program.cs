@@ -36,13 +36,13 @@ namespace SimpleServer
 
                 byte[] recvBytes = new byte[1024];
                 int nRecv = client.Receive(recvBytes);
-                if(nRecv <= 0)
+                if(nRecv <= 0) // 상대방이 종료함
                 {
                     client.Shutdown(SocketShutdown.Both);
                     client.Close();
                     break;
                 }
-                string txt = Encoding.UTF8.GetString(recvBytes, 0, nRecv);
+                string txt = Encoding.UTF8.GetString(recvBytes, 0, nRecv); // 한글패치, Byte배열 0~nRecv까지 -> txt
                 Console.WriteLine(client.RemoteEndPoint.ToString() + ":" + txt);
                 byte[] sendByte = Encoding.UTF8.GetBytes("서버:" + txt);
                 client.Send(sendByte);
