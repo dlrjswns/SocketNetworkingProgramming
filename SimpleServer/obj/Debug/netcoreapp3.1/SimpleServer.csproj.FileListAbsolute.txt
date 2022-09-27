@@ -1,0 +1,14 @@
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\bin\Debug\netcoreapp3.1\SimpleServer.exe
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\bin\Debug\netcoreapp3.1\SimpleServer.deps.json
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\bin\Debug\netcoreapp3.1\SimpleServer.runtimeconfig.json
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\bin\Debug\netcoreapp3.1\SimpleServer.runtimeconfig.dev.json
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\bin\Debug\netcoreapp3.1\SimpleServer.dll
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\bin\Debug\netcoreapp3.1\SimpleServer.pdb
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\obj\Debug\netcoreapp3.1\SimpleServer.csproj.AssemblyReference.cache
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\obj\Debug\netcoreapp3.1\SimpleServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\obj\Debug\netcoreapp3.1\SimpleServer.AssemblyInfoInputs.cache
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\obj\Debug\netcoreapp3.1\SimpleServer.AssemblyInfo.cs
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\obj\Debug\netcoreapp3.1\SimpleServer.csproj.CoreCompileInputs.cache
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\obj\Debug\netcoreapp3.1\SimpleServer.dll
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\obj\Debug\netcoreapp3.1\SimpleServer.pdb
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\SimpleServer\obj\Debug\netcoreapp3.1\SimpleServer.genruntimeconfig.cache
