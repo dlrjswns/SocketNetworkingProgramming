@@ -1,0 +1,13 @@
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\bin\Debug\netcoreapp3.1\Thread_Test.exe
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\bin\Debug\netcoreapp3.1\Thread_Test.deps.json
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\bin\Debug\netcoreapp3.1\Thread_Test.runtimeconfig.json
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\bin\Debug\netcoreapp3.1\Thread_Test.runtimeconfig.dev.json
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\bin\Debug\netcoreapp3.1\Thread_Test.dll
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\bin\Debug\netcoreapp3.1\Thread_Test.pdb
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\obj\Debug\netcoreapp3.1\Thread_Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\obj\Debug\netcoreapp3.1\Thread_Test.AssemblyInfoInputs.cache
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\obj\Debug\netcoreapp3.1\Thread_Test.AssemblyInfo.cs
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\obj\Debug\netcoreapp3.1\Thread_Test.csproj.CoreCompileInputs.cache
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\obj\Debug\netcoreapp3.1\Thread_Test.dll
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\obj\Debug\netcoreapp3.1\Thread_Test.pdb
+C:\Users\CS3-07\Desktop\네트워크프로그래밍\Thread\obj\Debug\netcoreapp3.1\Thread_Test.genruntimeconfig.cache
