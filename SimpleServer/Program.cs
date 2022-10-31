@@ -8,6 +8,7 @@ namespace SimpleServer
 {
     class Program
     {
+        public static List<Socket> clientSockets = new List<Socket>();
         static void Main(string[] args)
         {
             string myComputer = Dns.GetHostName(); // 내 컴퓨터이름을 가져와라
@@ -53,7 +54,7 @@ namespace SimpleServer
                  //   Console.WriteLine(client.RemoteEndPoint.ToString() + ":" + txt);
                  //   byte[] sendByte = Encoding.UTF8.GetBytes("서버:" + txt);
                  //   client.Send(sendByte);
-                }           
+                 // }           
             }
         }
     }
@@ -62,9 +63,12 @@ namespace SimpleServer
 class ClientHandler
 {
     Socket client = null;
-    public ClientHandler (Socket socket)
+    List<Socket> clientSockets = new List<Socket>();
+
+    public ClientHandler (Socket socket, List<Socket> cList)
     {
         this.client = socket;
+        this.clientSockets = cList;
     }
 
     public void chat()
@@ -82,7 +86,22 @@ class ClientHandler
             string txt = Encoding.UTF8.GetString(recvBytes, 0, nRecv);
             Console.WriteLine(client.RemoteEndPoint.ToString() + ":" + txt);
             byte[] sendBytes = Encoding.UTF8.GetBytes("서버:" + txt);
-            client.Send(sendBytes);
+            //client.Send(sendBytes);
+            Broadcast(sendByte);
+        }
+    }
+    void Broadcast(byte[] sendB)
+    {
+        foreach(var client in clientSockets)
+        {
+            if(client.Connected)
+            {
+                client.Send(sendB);
+            } 
+            else
+            {
+               clientSockets.Remove(client);
+            }
         }
     }
 }
